@@ -1,0 +1,41 @@
+#headerHome{
+    background-image: url('/images/homepage_vogel.avif');
+    height: 65vh;
+    /*height 700px;*/
+
+    background-size: cover;
+}
+#headerHome h1 {
+    font-size: 3.5rem !important;
+}
+
+
+#funFact{
+    font-size: 1.5rem !important;
+    max-width: 25%;
+    margin:auto;
+    text-align: center;
+    color:white !important;
+    font-weight: 100;
+
+}
+.author{
+    font-size: 1.5rem !important;
+}
+
+#funFactDiv{
+    height: 20rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    padding-top: 4em;
+    align:center;
+}
+
+/*.btn.btn-primary{*/
+/*    background-color: black!important;*/
+/*    border-color:black;*/
+/*    border-radius: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*}*/

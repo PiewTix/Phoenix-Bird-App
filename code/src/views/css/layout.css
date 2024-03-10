@@ -1,0 +1,151 @@
+
+
+
+/*
+dit deel zorgt voor de animatie,
+maar werd na overleg weggelaten
+
+#navTop{
+    height:65px;
+    transition: height 0.2s ;
+}
+
+#navShrink{
+
+
+    height: 45px;
+    transition: height 0.2s ;
+}
+main {
+    padding-top: 65px;
+}
+*/
+
+/*
+#navbar {
+    height: 50px;
+}*/
+
+.navbar-nav .nav-link.active {
+    color: #198754;
+}
+
+
+.navbar-nav > li{
+    padding-left:7px;
+    padding-right:7px;
+}
+
+/*oude groen: #198754
+ */
+
+/*Button for the light background*/
+
+.lightButton
+{
+    appearance: none;
+    background-color: white;
+    border: 2px solid #399b6b;
+    border-radius: 15px;
+
+
+    /*afmetingen*/
+    /*box-sizing: border-box;*/ /* Dit zorgde ervoor dat de lengte van de buttons niet afhing van de text,
+     het is goed voor elke button dezelfde size te geven, maar dan konden we dit niet gebruiken voor buttons met langere promprs. */
+    min-height: 55px;
+    min-width: 170px;
+    /*max-width: 300px;*/
+
+
+    color:  #399b6b;
+    cursor: pointer;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+
+
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.lightButton:disabled {
+    pointer-events: none;
+}
+
+.lightButton:hover {
+    color: #fff;
+    background-color:  #399b6b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    border:  2px solid #399b6b;
+}
+
+.lightButton:active {
+    border: 2px solid  #399b6b !important;
+    background-color:  #399b6b !important;
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+/*Button for the dark background*/
+.darkButton
+{
+    appearance: none;
+    background-color: #212529;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    min-height: 80px;
+    min-width: 0;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+
+    width: 200px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.darkButton:disabled {
+    pointer-events: none;
+}
+
+.darkButton:hover {
+    color: #212529;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    border: #ffffff;
+}
+
+.darkButton:active {
+    /*Is er een manier om de importants weg te krijgen?*/
+    border: 2px solid #ffffff !important;
+    background-color: #ffffff !important;
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+

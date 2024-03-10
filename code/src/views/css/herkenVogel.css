@@ -1,0 +1,76 @@
+
+.container-fluid {
+    justify-content: center;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+.featurette-divider{
+    margin: 0;
+}
+
+.subCat {
+    font-size: 30px;
+    font-weight: 650;
+    height: 90%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+p{
+    color: rgba(255,255,255,.8);
+}
+
+#HeaderID {
+    background: black url("../images/herkenVogel_background.jpg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+img {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.row{
+    padding-bottom:20px;
+    justify-content: center;
+}
+
+.col{
+    text-align: center;
+}
+
+select[name = "selectBox"] {
+    /*width: 200px;*/
+    text-align: center;
+    border-width: 2px !important;
+    font-size: 20px;
+    border-color: black !important;
+}
+
+.lightButton[name = "vogelOpties"] {
+    min-height: 80px;
+    color: black;
+    border: 2px solid black;
+}
+.lightButton[name = "vogelOpties"]:hover {
+    background-color: black;
+    color: white;
+}
+.lightButton[name = "vogelOpties"]:active {
+    border: 2px solid black !important;
+    background-color: black !important;
+}
+
+
+

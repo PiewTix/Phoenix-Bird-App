@@ -1,0 +1,72 @@
+#divSearch {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0 !important;
+}
+#divUsername, #divDate {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 0 !important;
+}
+#linkToSearch{
+    color: #198754;
+}
+
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+#map-container { position: relative; height: 600px; }
+
+.form-control.search2 {
+    width: 100px !important; /* Adjust the width as needed */
+}
+
+.input-group.cor{
+    width: 300px !important;
+
+}
+.cor-box{
+    margin-top: 10px;
+}
+
+#inputDate{
+    width:50%;
+}
+
+
+
+.latitude-input, .longitude-input {
+    border-radius: 0;
+}
+
+.cor-input-label {
+    background-color: white;
+}
+
+#inputLat, #inputLong{
+    border-radius: 0;
+}
+
+#submit-section{
+    background-color: white;
+}
+
+
+#divider{
+    width: 40%;
+}
+
+
+/*#submit{*/
+
+/*    background-color: white;*/
+/*    border-color: #198754;*/
+/*    color: #198754;*/
+/*    width: 50%;*/
+/*    transition: background-color 0.3s ease;*/
+
+/*}*/
+
+/*#submit:hover{*/
+/*    background-color: #198754;*/
+/*    color:white;*/
+/*}*/
+
